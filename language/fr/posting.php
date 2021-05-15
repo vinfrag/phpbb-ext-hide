@@ -41,5 +41,5 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, [
 	'HIDE_HELPLINE' => 'Utilisation : [hide]texte[/hide] ou [hide inline=1]texte[/hide].',
 	'HIDDEN_CONTENT' => 'Contenu masqué',
-	'HIDDEN_CONTENT_EXPLAIN' => 'Ce contenu est exclusivement visible par les membres connectés au forum.'
+	'HIDDEN_CONTENT_EXPLAIN' => 'Ce contenu est exclusivement visible par les membres connectés au forum et ayant postés dans ce topic.'
 ]);
