@@ -1,10 +1,10 @@
 {
-	"name": "alfredoramos/hide",
+	"name": "vinfrag/hide",
 	"type": "phpbb-extension",
-	"description": "Hide BBCode extension for phpBB",
-	"homepage": "https://github.com/AlfredoRamos/phpbb-ext-hide",
-	"version": "2.1.0",
-	"time": "2020-05-05",
+	"description": "Hide BBCode extension for phpBB - Hide for users not present in topic - Forked from AlfredoRamos/Hide : https://github.com/AlfredoRamos/phpbb-ext-hide",
+	"homepage": "https://github.com/vinfrag/phpbb-ext-hide",
+	"version": "1.0.0",
+	"time": "2021-05-15",
 	"keywords": ["phpbb", "extension", "hide", "bbcode"],
 	"license": "GPL-2.0-only",
 	"authors": [
@@ -12,7 +12,13 @@
 			"name": "Alfredo Ramos",
 			"email": "alfredo.ramos@yandex.com",
 			"homepage": "https://alfredoramos.mx/",
-			"role": "Lead Developer"
+			"role": "Lead Developer (Original Version)"
+		},
+		{
+			"name": "VinFrag",
+			"email": "",
+			"homepage": "https://github.com/vinfrag/",
+			"role": "Fork Lead Developer"
 		}
 	],
 	"require": {
@@ -27,12 +33,6 @@
 		"display-name": "Hide",
 		"soft-require": {
 			"phpbb/phpbb": "~3.3.0"
-		},
-		"version-check": {
-			"host": "alfredoramos.mx",
-			"directory": "/phpbb-extensions/versions",
-			"filename": "hide.json",
-			"ssl": true
 		}
 	}
 }

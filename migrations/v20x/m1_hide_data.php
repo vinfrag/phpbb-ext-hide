@@ -7,10 +7,10 @@
  * @license GPL-2.0-only
  */
 
-namespace alfredoramos\hide\migrations\v20x;
+namespace vinfrag\hide\migrations\v20x;
 
 use phpbb\db\migration\container_aware_migration;
-use alfredoramos\hide\includes\helper as hide_helper;
+use vinfrag\hide\includes\helper as hide_helper;
 
 class m1_hide_data extends container_aware_migration
 {

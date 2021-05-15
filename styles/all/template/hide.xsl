@@ -1,5 +1,5 @@
 <xsl:choose>
-	<xsl:when test="$S_USER_LOGGED_IN and not($S_IS_BOT)">
+	<xsl:when test="$S_USER_LOGGED_IN and $NEG_UserMemberOfThisTopic and not($S_IS_BOT)">
 		<section>
 			<xsl:attribute name="class">
 				<xsl:choose>

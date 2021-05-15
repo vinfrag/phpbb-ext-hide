@@ -1,14 +1,12 @@
+Fork from AlfredoRamos
+
 ### About
 
 Hide extension for phpBB
 
-[![Build Status](https://img.shields.io/github/workflow/status/AlfredoRamos/phpbb-ext-hide/CI?style=flat-square)](https://github.com/AlfredoRamos/phpbb-ext-hide/actions)
-[![Latest Stable Version](https://img.shields.io/github/tag/AlfredoRamos/phpbb-ext-hide.svg?label=stable&style=flat-square)](https://github.com/AlfredoRamos/phpbb-ext-hide/releases)
-[![Code Quality](https://img.shields.io/codacy/grade/5de75f922b4f4eae90615728e908c1c7.svg?style=flat-square)](https://app.codacy.com/gh/AlfredoRamos/phpbb-ext-hide/dashboard)
-[![Translation Progress](https://badges.crowdin.net/phpbb-ext-hide/localized.svg)](https://crowdin.com/project/phpbb-ext-hide)
-[![License](https://img.shields.io/github/license/AlfredoRamos/phpbb-ext-hide.svg?style=flat-square)](https://raw.githubusercontent.com/AlfredoRamos/phpbb-ext-hide/master/license.txt)
+[![Latest Stable Version](https://img.shields.io/github/tag/AlfredoRamos/phpbb-ext-hide.svg?label=stable&style=flat-square)](https://github.com/vinfrag/phpbb-ext-hide/releases)
 
-Allows you to write `[hide]text[/hide]` or `[hide inline=1]text[/hide]` and it will hide the content to guests.
+Allows you to write `[hide]text[/hide]` or `[hide inline=1]text[/hide]` and it will hide the content to guests and for the users who never posted in the topic.
 
 You can nest `[hide]` and use other BBCodes inside it.
 
@@ -24,23 +22,17 @@ You can nest `[hide]` and use other BBCodes inside it.
 - PHP 7.1.3 or greater
 - phpBB 3.3 or greater
 
-### Support
-
-- [Development topic](https://www.phpbb-es.com/foro/viewtopic.php?t=42374)
-- [GitHub issues](https://github.com/AlfredoRamos/phpbb-ext-hide/issues)
-- [Crowdin translations](https://crowdin.com/project/phpbb-ext-hide)
-
 ### Installation
 
-- Download the [latest release](https://github.com/AlfredoRamos/phpbb-ext-hide/releases)
+- Download the [latest release](https://github.com/vinfrag/phpbb-ext-hide/releases)
 - Decompress the `*.zip` or `*.tar.gz` file
-- Copy the files and directories inside `{PHPBB_ROOT}/ext/alfredoramos/hide/`
+- Copy the files and directories inside `{PHPBB_ROOT}/ext/vinfrag/hide/`
 - Go to your `Administration Control Panel` > `Customize` > `Manage extensions`
 - Click on `Enable` and confirm
 
 ### Preview
-
-[![Logged in user](https://i.imgur.com/OajNWkct.png)](https://i.imgur.com/OajNWkc.png)
+[![Logged in user who have already posted in the topic](https://i.imgur.com/OajNWkct.png)](https://i.imgur.com/OajNWkc.png)
+[![Logged in user who never posted in the topic](https://i.imgur.com/xDbK3oUt.png)](https://i.imgur.com/xDbK3oU.png)
 [![Guest user](https://i.imgur.com/xDbK3oUt.png)](https://i.imgur.com/xDbK3oU.png)
 
 *(Click to view in full size)*
@@ -65,10 +57,12 @@ To customize the look and feel:
 ### Upgrade
 
 - Uninstall the extension
-- Delete all the files inside `{PHPBB_ROOT}/ext/alfredoramos/hide/`
+- Delete all the files inside `{PHPBB_ROOT}/ext/vinfrag/hide/`
 - Download the new version
 - Install the extension
 
 ### Credits
+
+Credit to AlfredoRamos https://github.com/AlfredoRamos/phpbb-ext-hide/
 
 File `lock-closed.svg` from [Zoondicons](https://www.zondicons.com/) by [Steve Schoger](https://twitter.com/steveschoger) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)

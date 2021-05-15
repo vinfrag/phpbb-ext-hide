@@ -1,13 +1,15 @@
 services:
-    alfredoramos.hide.listener:
-        class: alfredoramos\hide\event\listener
+    vinfrag.hide.listener:
+        class: vinfrag\hide\event\listener
         arguments:
-            - '@alfredoramos.hide.helper'
+            - '@vinfrag.hide.helper'
+            - '@user'
+            - '@request'
         tags:
             - { name: event.listener }
 
-    alfredoramos.hide.helper:
-        class: alfredoramos\hide\includes\helper
+    vinfrag.hide.helper:
+        class: vinfrag\hide\includes\helper
         arguments:
             - '@dbal.conn'
             - '@filesystem'

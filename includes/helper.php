@@ -5,9 +5,10 @@
  * @author Alfredo Ramos <alfredo.ramos@yandex.com>
  * @copyright 2017 Alfredo Ramos
  * @license GPL-2.0-only
+ * Fork by VinFrag
  */
 
-namespace alfredoramos\hide\includes;
+namespace vinfrag\hide\includes;
 
 use phpbb\db\driver\factory as database;
 use phpbb\filesystem\filesystem;

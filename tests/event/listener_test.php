@@ -7,11 +7,11 @@
  * @license GPL-2.0-only
  */
 
-namespace alfredoramos\hide\tests\event;
+namespace vinfrag\hide\tests\event;
 
 use phpbb_test_case;
-use alfredoramos\hide\event\listener;
-use alfredoramos\hide\includes\helper;
+use vinfrag\hide\event\listener;
+use vinfrag\hide\includes\helper;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
@@ -19,7 +19,7 @@ use Symfony\Component\EventDispatcher\EventSubscriberInterface;
  */
 class listener_test extends phpbb_test_case
 {
-	/** @var \alfredoramos\hide\includes\helper */
+	/** @var \vinfrag\hide\includes\helper */
 	protected $helper;
 
 	public function setUp(): void

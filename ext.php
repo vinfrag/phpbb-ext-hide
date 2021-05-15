@@ -5,9 +5,10 @@
  * @author Alfredo Ramos <alfredo.ramos@yandex.com>
  * @copyright 2017 Alfredo Ramos
  * @license GPL-2.0-only
+ * Fork by VinFrag
  */
 
-namespace alfredoramos\hide;
+namespace vinfrag\hide;
 
 use phpbb\extension\base;
 

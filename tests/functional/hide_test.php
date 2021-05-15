@@ -7,7 +7,7 @@
  * @license GPL-2.0-only
  */
 
-namespace alfredoramos\hide\tests\functional;
+namespace vinfrag\hide\tests\functional;
 
 /**
  * @group functional
@@ -17,13 +17,13 @@ class hide_test extends \phpbb_functional_test_case
 	protected function setUp(): void
 	{
 		parent::setUp();
-		$this->add_lang_ext('alfredoramos/hide', 'posting');
+		$this->add_lang_ext('vinfrag/hide', 'posting');
 		$this->login();
 	}
 
 	static protected function setup_extensions()
 	{
-		return ['alfredoramos/hide'];
+		return ['vinfrag/hide'];
 	}
 
 	public function test_hide_bbcode()
